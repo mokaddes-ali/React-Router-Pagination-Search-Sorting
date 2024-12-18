@@ -17,8 +17,16 @@ const Sign = () => {
         // console.log(password)
         if (email === 'mokaddes.ru2000@gmail.com' && password === '123456'
         ) {
+            const user = {
+              name: 'Mokaddes',
+                email: 'mokaddes.ru2000@gmail.com',
+               phone: '01700000000',
+                address: 'Dhaka, Bangladesh',
+                
+            }
+
             alert('Login successful')
-            navigate('/about')
+            navigate('/profile', { state: user })
         }
         else {
             alert('Login failed')
