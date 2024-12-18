@@ -6,8 +6,10 @@
 
 -Whats is routing?
 -why routing?
+-Use const variable  name and use creatBrowserRouter, RouterProviver
 
 ## 2. Nested Routing & Universal Navbar
+
 
 # React + Vite
 
