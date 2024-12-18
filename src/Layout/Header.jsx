@@ -27,6 +27,14 @@ const Header = () => {
             </li>
             <li>
               <NavLink 
+                to="/sign" 
+                className={({ isActive }) => isActive ? 'active' : ''}
+                onClick={() => setMenuOpen(false)}>
+                Sign
+              </NavLink>
+            </li>
+            <li>
+              <NavLink 
                 to="/about" 
                 className={({ isActive }) => isActive ? 'active' : ''}
                 onClick={() => setMenuOpen(false)}>

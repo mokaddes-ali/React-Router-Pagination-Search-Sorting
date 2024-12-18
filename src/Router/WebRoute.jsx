@@ -6,6 +6,7 @@ import Contact from '../pages/Contact'
 import Blog from '../pages/Blog'
 import Product from '../pages/Product'
 import Header from '../Layout/Header'
+import Sign from '../pages/Sign'
 
 
 const WebRoute = () => {
@@ -19,6 +20,12 @@ const WebRoute = () => {
                     element: <Home />
 
                 },
+                {
+                    path: '/sign',
+                    element:<Sign />
+
+                },
+
                 {
                     path: '/about',
                     element: <About />
