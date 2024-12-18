@@ -5,15 +5,20 @@ import About from '../pages/About'
 import Contact from '../pages/Contact'
 import Blog from '../pages/Blog'
 import Product from '../pages/Product'
-import Navbar from '../Layout/Navbar'
+import Header from '../Layout/Header'
 
 
 const WebRoute = () => {
     const routes = createBrowserRouter ([
         {
             path: '/',
-            element: <Navbar />,
+            element: <Header />,
             children: [
+                {
+                    path: '/',
+                    element: <Home />
+
+                },
                 {
                     path: '/about',
                     element: <About />
