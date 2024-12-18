@@ -14,6 +14,14 @@
 ## 3. Route Programatically with useNavigate()
 
 -useNavigate very important topics
+## 4. Pass & Receive data when routing
+
+-design the user profile 
+-use state to pass data
+-useLocation() : receive data while routing
+
+## 5. Daynamic Routing with useLocation
+
 
 # React + Vite
 
