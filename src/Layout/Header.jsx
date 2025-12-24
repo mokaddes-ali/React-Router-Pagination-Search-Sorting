@@ -27,10 +27,10 @@ const Header = () => {
             </li>
             <li>
               <NavLink 
-                to="/sign" 
+                to="/signin" 
                 className={({ isActive }) => isActive ? 'active' : ''}
                 onClick={() => setMenuOpen(false)}>
-                Sign
+                SignIn
               </NavLink>
             </li>
             <li>
@@ -68,6 +68,8 @@ const Header = () => {
           </ul>
         </nav>
       </header>
+
+      {/* // use outlet for header separate css design from child */}
       <Outlet />
     </>
   );

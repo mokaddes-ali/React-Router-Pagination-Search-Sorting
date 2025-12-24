@@ -6,12 +6,18 @@
 
 -Whats is routing?
 -why routing?
+-project setup create 5 page
 -Use const variable  name and use creatBrowserRouter, RouterProviver
 - Design Navbar
+- handling 404 page
 
 ## 2. Nested Routing & Universal Navbar for universal use outlet and nested children.
+ -use nested loop child than use outlet in navbar
+ - <Outlet />
+ - <Link to="" > </Link>
 
 ## 3. Route Programatically with useNavigate()
+- useNavigate()
 
 -useNavigate very important topics
 ## 4. Pass & Receive data when routing
@@ -21,7 +27,7 @@
 -useLocation() : receive data while routing
 
 ## 5. Daynamic Routing with useLocation
-
+ -most important 
 
 # React + Vite
 

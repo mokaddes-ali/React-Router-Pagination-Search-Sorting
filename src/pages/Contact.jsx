@@ -5,12 +5,12 @@ const Contact = () => {
 
     const navigate = useNavigate();
 
-    const handleClick = () => {
+    const handleGoToHome = () => {
         navigate('/')
     }
   return (
     <>
-    <button onClick={handleClick}>Go to About</button>
+    <button onClick={handleGoToHome}>Go to Home Page</button>
     </>
   )
 }

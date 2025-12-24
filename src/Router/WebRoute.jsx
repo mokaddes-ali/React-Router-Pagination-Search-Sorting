@@ -6,8 +6,10 @@ import Contact from '../pages/Contact'
 import Blog from '../pages/Blog'
 import Product from '../pages/Product'
 import Header from '../Layout/Header'
-import Sign from '../pages/Sign'
+import SignIn from '../pages/SignIn'
 import Profile from '../pages/Profile'
+import NotFoundPage from '../pages/NotFoundPage'
+import ProductDetails from '../components/ProductDetails'
 
 
 const WebRoute = () => {
@@ -22,8 +24,8 @@ const WebRoute = () => {
 
                 },
                 {
-                    path: '/sign',
-                    element:<Sign />
+                    path: '/signin',
+                    element:<SignIn />
 
                 },
 
@@ -43,13 +45,19 @@ const WebRoute = () => {
                     path: '/product',
                     element: <Product />
                 },
+
+                  {
+                    path: '/product-details/:id',
+                    element:
+                    <ProductDetails />
+                },
                 {
                     path: '/profile',
                     element:<Profile />
                 },
                 {
                     path: '*',
-                    element: <div>This Path Not Found</div>
+                    element: <NotFoundPage />
                 },
 
             ]
